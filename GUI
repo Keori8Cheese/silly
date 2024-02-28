@@ -1,0 +1,217 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local OpenClose = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local APfarm = Instance.new("TextButton")
+local AWPfarm = Instance.new("TextButton")
+local OPfarm = Instance.new("TextButton")
+local MPfarm = Instance.new("TextButton")
+local PPfarm = Instance.new("TextButton")
+local RPfarm = Instance.new("TextButton")
+local TPfarm = Instance.new("TextButton")
+local SPfarm = Instance.new("TextButton")
+local UPfarm = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+OpenClose.Name = "OpenClose"
+OpenClose.Parent = ScreenGui
+OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenClose.BorderSizePixel = 0
+OpenClose.Position = UDim2.new(0, 0, 0.535980165, 0)
+OpenClose.Size = UDim2.new(0, 59, 0, 62)
+OpenClose.Font = Enum.Font.SourceSans
+OpenClose.Text = "Open/Close"
+OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.TextSize = 14.000
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.142135635, 0, 0.358560801, 0)
+Frame.Size = UDim2.new(0, 600, 0, 196)
+
+APfarm.Name = "APfarm"
+APfarm.Parent = Frame
+APfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+APfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+APfarm.BorderSizePixel = 0
+APfarm.Position = UDim2.new(0.331832588, 0, 0.506428003, 0)
+APfarm.Size = UDim2.new(0, 200, 0, 50)
+APfarm.Font = Enum.Font.SourceSans
+APfarm.Text = "AP farm"
+APfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+APfarm.TextSize = 14.000
+
+AWPfarm.Name = "AWPfarm"
+AWPfarm.Parent = Frame
+AWPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AWPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AWPfarm.BorderSizePixel = 0
+AWPfarm.Position = UDim2.new(-0.00080088299, 0, -0.000294588041, 0)
+AWPfarm.Size = UDim2.new(0, 200, 0, 50)
+AWPfarm.Font = Enum.Font.SourceSans
+AWPfarm.Text = "AWP farm"
+AWPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+AWPfarm.TextSize = 14.000
+
+OPfarm.Name = "OPfarm"
+OPfarm.Parent = Frame
+OPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OPfarm.BorderSizePixel = 0
+OPfarm.Position = UDim2.new(-0.00123377482, 0, 0.232446477, 0)
+OPfarm.Size = UDim2.new(0, 200, 0, 50)
+OPfarm.Font = Enum.Font.SourceSans
+OPfarm.Text = "OP farm"
+OPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+OPfarm.TextSize = 14.000
+
+MPfarm.Name = "MPfarm"
+MPfarm.Parent = Frame
+MPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MPfarm.BorderSizePixel = 0
+MPfarm.Position = UDim2.new(-0.00080088299, 0, 0.48840642, 0)
+MPfarm.Size = UDim2.new(0, 200, 0, 50)
+MPfarm.Font = Enum.Font.SourceSans
+MPfarm.Text = "MP farm"
+MPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+MPfarm.TextSize = 14.000
+
+PPfarm.Name = "PPfarm"
+PPfarm.Parent = Frame
+PPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PPfarm.BorderSizePixel = 0
+PPfarm.Position = UDim2.new(0.331832588, 0, 0.74331212, 0)
+PPfarm.Size = UDim2.new(0, 200, 0, 50)
+PPfarm.Font = Enum.Font.SourceSans
+PPfarm.Text = "PP farm"
+PPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+PPfarm.TextSize = 14.000
+
+RPfarm.Name = "RPfarm"
+RPfarm.Parent = Frame
+RPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RPfarm.BorderSizePixel = 0
+RPfarm.Position = UDim2.new(0.331832588, 0, -0.000294588041, 0)
+RPfarm.Size = UDim2.new(0, 200, 0, 50)
+RPfarm.Font = Enum.Font.SourceSans
+RPfarm.Text = "RP farm"
+RPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+RPfarm.TextSize = 14.000
+
+TPfarm.Name = "TPfarm"
+TPfarm.Parent = Frame
+TPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TPfarm.BorderSizePixel = 0
+TPfarm.Position = UDim2.new(0.329206347, 0, 0.251199365, 0)
+TPfarm.Size = UDim2.new(0, 200, 0, 50)
+TPfarm.Font = Enum.Font.SourceSans
+TPfarm.Text = "TP farm"
+TPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+TPfarm.TextSize = 14.000
+
+SPfarm.Name = "SPfarm"
+SPfarm.Parent = Frame
+SPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SPfarm.BorderSizePixel = 0
+SPfarm.Position = UDim2.new(0.661132812, 0, -0.000294588041, 0)
+SPfarm.Size = UDim2.new(0, 200, 0, 50)
+SPfarm.Font = Enum.Font.SourceSans
+SPfarm.Text = "SPfarm"
+SPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPfarm.TextSize = 14.000
+
+UPfarm.Name = "UPfarm"
+UPfarm.Parent = Frame
+UPfarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UPfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UPfarm.BorderSizePixel = 0
+UPfarm.Position = UDim2.new(-0.00080088299, 0, 0.739099622, 0)
+UPfarm.Size = UDim2.new(0, 200, 0, 50)
+UPfarm.Font = Enum.Font.SourceSans
+UPfarm.Text = "UP farm"
+UPfarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+UPfarm.TextSize = 14.000
+
+-- Scripts:
+
+local function TBQP_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	local SGui = script.Parent
+	local Frame = SGui:WaitForChild("Frame")
+	local Button = SGui:WaitForChild("OpenClose")
+	
+	Button.MouseButton1Up:Connect(function()
+		Frame.Visible = not Frame.Visible
+	end)
+end
+coroutine.wrap(TBQP_fake_script)()
+local function QTPTYR_fake_script() -- APfarm.Script 
+	local script = Instance.new('Script', APfarm)
+
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Keori8Cheese/silly/main/APfarm'),true))()
+end
+coroutine.wrap(QTPTYR_fake_script)()
+local function FDLRAL_fake_script() -- AWPfarm.Script 
+	local script = Instance.new('Script', AWPfarm)
+
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Keori8Cheese/silly/main/AWPfarm'),true))()
+end
+coroutine.wrap(FDLRAL_fake_script)()
+local function ZHYX_fake_script() -- OPfarm.Script 
+	local script = Instance.new('Script', OPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/OPfarm'),true))()
+end
+coroutine.wrap(ZHYX_fake_script)()
+local function LQQT_fake_script() -- MPfarm.Script 
+	local script = Instance.new('Script', MPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/MPfarm'),true))()
+end
+coroutine.wrap(LQQT_fake_script)()
+local function OQXCFKK_fake_script() -- PPfarm.Script 
+	local script = Instance.new('Script', PPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/PPfarm'),true))()
+end
+coroutine.wrap(OQXCFKK_fake_script)()
+local function OOAA_fake_script() -- RPfarm.Script 
+	local script = Instance.new('Script', RPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/RPfarm'),true))()
+end
+coroutine.wrap(OOAA_fake_script)()
+local function SLKFAEE_fake_script() -- TPfarm.Script 
+	local script = Instance.new('Script', TPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/TPfarm'),true))()
+end
+coroutine.wrap(SLKFAEE_fake_script)()
+local function GPCVFRO_fake_script() -- SPfarm.Script 
+	local script = Instance.new('Script', SPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/SPfarm'),true))()
+end
+coroutine.wrap(GPCVFRO_fake_script)()
+local function YAQYKV_fake_script() -- UPfarm.Script 
+	local script = Instance.new('Script', UPfarm)
+
+	loadstring(game:HttpGet(('https://github.com/Keori8Cheese/silly/raw/main/UPfarm'),true))()
+end
+coroutine.wrap(YAQYKV_fake_script)()
