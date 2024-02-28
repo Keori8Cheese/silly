@@ -89,7 +89,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 			farm = true
 			while farm do
 				for count7 = 0, 5, 1 do
-					if APMcheck == 0 or APMcheck > 0 and APMcheck <3 then
+					if APMcheck == 0 or APMcheck > 0 and APMcheck <2 then
 						Rarity()
 						wait(1)
 						AP()
@@ -103,7 +103,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 						PPMAP()
 						wait(0.3)
 						APMcheck = APMcheck + 1
-					elseif APMcheck == 3 or APMcheck > 3 then
+					elseif APMcheck == 3 or APMcheck > 2 then
 						Rarity()
 						wait(1)
 						AP()
@@ -115,7 +115,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 						PPMAP()
 						wait(0.3)
 					end
-					
+					APMcheck = 0
 				end
 			end
 		else
