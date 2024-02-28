@@ -88,42 +88,10 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 		if not farm then
 			farm = true
 			while farm do
-				for count = 0, 5, 1 do
-					Quality()
-					wait(1)
-					RP()
-					wait(0.3)
-					UP()
-					wait(0.3)
-					MP()
-					wait(0.3)
-					OP()
-					wait(0.3)
-				end
-				for count1 = 0, 5, 1 do
-					Quality()
-					wait(1)
-					RP()
-					wait(0.3)
-					UP()
-					wait(0.3)
-					MP()
-					wait(0.3)
-				end
-				for count2 = 0, 5, 1 do
-					Quality()
-					wait(1)
-					RP()
-					wait(0.3)
-					UP()
-					wait(0.3)
-				end
-				for count3 = 0, 5, 1 do
-					Quality()
-					wait(1)
-					RP()
-					wait(0.3)
-				end
+				Quality()
+				wait(1)
+				RP()
+				wait(0.3)
 			end
 		else
 			farm = false
