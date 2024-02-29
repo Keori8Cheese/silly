@@ -84,7 +84,7 @@ local function AP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ascend.CFrame
 end
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-	if msg == "/SPfarm" then
+	if msg == "SPF" then
 		if not farm then
 			farm = true
 			while farm do
