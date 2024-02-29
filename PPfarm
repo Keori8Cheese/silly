@@ -84,34 +84,31 @@ local function AP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ascend.CFrame
 end
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
-	if msg == "/PPfarm" then
+	if msg == "PPF" then
 		if not farm then
 			farm = true
 			while farm do
-				for count8 = 0, 5, 1 do
-					if PPMcheck == 0 or PPMcheck > 0 and PPMcheck < 3 then
-						Rarity()
-						wait(1)
-						PP()
-						wait(0.3)
-						PPMPP()
-						wait(1)
-						LuckPP()
-						wait(0.5)
-						SPMPP()
-						wait(0.5)
-						PPMcheck= PPMcheck + 1
-					elseif PPMcheck == 3 or PPMcheck > 3 then
-						Rarity()
-						wait(1)
-						PP()
-						wait(0.3)
-						LuckPP()
-						wait(0.5)
-						SPMPP()
-						wait(0.5)
-					end
-					
+				if PPMcheck == 0 or PPMcheck > 0 and PPMcheck < 3 then
+					Rarity()
+					wait(1)
+					PP()
+					wait(0.3)
+					PPMPP()
+					wait(1)
+					LuckPP()
+					wait(0.5)
+					SPMPP()
+					wait(0.5)
+					PPMcheck= PPMcheck + 1
+				elseif PPMcheck == 3 or PPMcheck > 3 then
+					Rarity()
+					wait(1)
+					PP()
+					wait(0.3)
+					LuckPP()
+					wait(0.5)
+					SPMPP()
+					wait(0.5)
 				end
 				PPMcheck = 0
 			end
