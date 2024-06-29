@@ -2,11 +2,39 @@ farm = false
 local endwaittime = 0
 local PPMcheck = 0
 local APMcheck = 0
+local AWPcheck = 0
 local function AWP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Awakening.CFrame
 end
 local function AWPUPG()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPMAWP.CFrame
+end
+local function RPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeRPMAWP.CFrame
+end
+local function UPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeUPMAWP.CFrame
+end
+local function MPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeMPMAWP.CFrame
+end
+local function OPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeOPMAWP.CFrame
+end
+local function SPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeSPMAWP.CFrame
+end
+local function PPMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradePPMAWP.CFrame
+end
+local function APMAWP()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAPMAWP.CFrame
+end
+local function AWPLuck()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPLuck.CFrame
+end
+local function Warp()
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Warpstuff.Warp.CFrame
 end
 local function TP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.Transcend.CFrame
@@ -83,6 +111,7 @@ end
 local function AP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ascend.CFrame
 end
+
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	if msg == "AWPF" then
 		if not farm then
@@ -217,10 +246,28 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 				wait(1)
 				AWPUPG()
 				wait(1)
-				endwaittime = endwaittime + 1
-				if endwaittime == 10 then
-					wait(200)
-				end
+                AWPcheck = AWPcheck + 1
+                if AWPcheck == 15 then
+                    for count9 = 0,30,1 do
+                        AWPluck()
+                        wait(0.1)
+                        OPMAWP()
+                        wait(0.1)
+                        MPMAWP()
+                        wait(0.1)
+                        UPMAWP()
+                        wait(0.1)
+                        RPMAWP()
+                        wait(0.1)
+                        SPMAWP()
+                        wait(0.1)
+                        PPMAWP()
+                        wait(0.1)
+                        APMAWP()
+                        wait(0.1)
+                    end
+                    AWPcheck=0
+                end
 				APMcheck = 0
 				PPMcheck = 0
 			end
