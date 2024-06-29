@@ -4,52 +4,52 @@ local PPMcheck = 0
 local APMcheck = 0
 local AWPcheck = 0
 local function AWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Awakening.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Awakening.CFrame * CFrame.new(0,3,0)
 end
 local function AWPUPG()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function RPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeRPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeRPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function UPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeUPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeUPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function MPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeMPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeMPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function OPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeOPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeOPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function SPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeSPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeSPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function PPMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradePPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradePPMAWP.CFrame * CFrame.new(0,3,0) 
 end
 local function APMAWP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAPMAWP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAPMAWP.CFrame * CFrame.new(0,3,0)
 end
 local function AWPLuck()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPLuck.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.UpgradeAWPLuck.CFrame * CFrame.new(0,3,0) 
 end
 local function Warp()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Warpstuff.Warp.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").OPMapExpansion.Warpstuff.Warp.CFrame * CFrame.new(0,3,0)
 end
 local function TP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.Transcend.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.Transcend.CFrame * CFrame.new(0,3,0)
 end
 local function PPMTP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradePPMTP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradePPMTP.CFrame * CFrame.new(0,3,0)
 end
-local function SPMTP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeSPMTP.CFrame
+local function SPMTP() 
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeSPMTP.CFrame * CFrame.new(0,3,0)
 end
 local function APMTP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeAPMTP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeAPMTP.CFrame * CFrame.new(0,3,0)
 end
 local function LuckTP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeLuckTP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion2.UpgradeLuckTP.CFrame * CFrame.new(0,3,0)
 end
 local function Quality()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").TPMapExpansion.QualityGet.CFrame * CFrame.new(0,3,0)
@@ -70,34 +70,34 @@ local function LuckAP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").APMapExpansion.UpgradeLuckAP.CFrame * CFrame.new(0,3,0)
 end
 local function PP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Prestige.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Prestige.CFrame * CFrame.new(0,3,0)
 end
 local function Rarity()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").RarityGet.CFrame * CFrame.new(0,3,0)
 end
 local function SP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Sacrifice.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Sacrifice.CFrame * CFrame.new(0,3,0)
 end
 local function SPMPP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeSPMPP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeSPMPP.CFrame * CFrame.new(0,3,0)
 end
 local function PPMPP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradePPMPP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradePPMPP.CFrame * CFrame.new(0,3,0)
 end
 local function LuckPP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeLuckPP.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeLuckPP.CFrame * CFrame.new(0,3,0)
 end
 local function Luck()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeLuck.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeLuck.CFrame * CFrame.new(0,3,0)
 end
 local function Bulk()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeBr.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeBr.CFrame * CFrame.new(0,3,0)
 end
 local function RollCD()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeRcd.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeRcd.CFrame * CFrame.new(0,3,0)
 end
 local function SPM()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeSPM.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").UpgradeSPM.CFrame * CFrame.new(0,3,0)
 end
 local function UP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").RPMapExpansion.Ultra.CFrame * CFrame.new(0,3,0)
@@ -109,7 +109,7 @@ local function OP()
 	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").RPMapExpansion.Omega.CFrame * CFrame.new(0,3,0)
 end
 local function AP()
-	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ascend.CFrame
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Ascend.CFrame * CFrame.new(0,3,0)
 end
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
