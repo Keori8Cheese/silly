@@ -246,28 +246,6 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 				wait(1)
 				AWPUPG()
 				wait(1)
-                		AWPcheck = AWPcheck + 1
-		                if AWPcheck == 15 then
-                    			for count9 = 0,30,1 do
-                        			AWPLuck()
-                        			wait(0.1)
-                        			OPMAWP()
-                        			wait(0.1)
-                        			MPMAWP()
-                				wait(0.1)
-                        			UPMAWP()
-                        			wait(0.1)
-                        			RPMAWP()
-                        			wait(0.1)
-                        			SPMAWP()
-                        			wait(0.1)
-                        			PPMAWP()
-                        			wait(0.1)
-                        			APMAWP()
-                        			wait(0.1)
-                    			end
-                    		AWPcheck=0
-                		end
 				APMcheck = 0
 				PPMcheck = 0
 			end
